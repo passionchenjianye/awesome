@@ -46,4 +46,7 @@ $ docker run -d -p 8400:8400 -p 8500:8500 -p 8600:53/udp --name node4 -h node4 p
 
 * web层在`service－proxy`中获取服务列表
 
+## TODO
+
+* 所有公用的属性都可以放到consul上，例如consul和服务端的地址，通过consul存储可以做到一次更改
 
